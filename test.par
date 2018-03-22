@@ -1,0 +1,38 @@
+synth
+standard_out test.long
+summary_out  test.raw
+smoothed_out test.smooth
+model_in     Sun.mod
+lines_in    'DR12-full.moog.txt'
+observed_in 'Sun_li.dat'
+atmosphere  1
+molecules   1
+terminal    x11
+lines       1
+flux/int    0
+damping     0
+freeform    1
+plot        2
+abundances  15 1
+    3 +0.17
+    6 +0.0
+    7 -0.2
+   14 +0.0
+   20 +0.03
+   21 +0.0
+   22 +0.00
+   23 +0.0
+   24 +0.00
+   25 +0.0
+   26 -0.05
+   28 +0.00
+   44 +0.0
+   58 -0.0
+   62 +0.0
+synlimits
+ 15570.0 15580.0 0.01 2.0
+obspectrum    5
+plotpars    1
+ 15573.0 15576.0  0.92 1.006
+ 0.00   0.003   0.002 1.019
+ r       0.097  2.2  0.6  2.9  0.0
